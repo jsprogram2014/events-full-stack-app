@@ -2,7 +2,7 @@ import React from 'react'
 
 const Page = () => {
     return (
-        <div>welcome to start of the project</div>
+        <h1>welcome to start of the project</h1>
     )
 }
 export default Page
