@@ -41,7 +41,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <div className="absolute inset-0 top-0 z-[-1] min-h-screen">
           <LightRays
             raysOrigin="top-center-offset"
-            raysColor="#e05a4f"
+            raysColor="#FF0000"
             raysSpeed={1}
             lightSpread={0.5}
             rayLength={3}

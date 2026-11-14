@@ -22,7 +22,14 @@ const Page = () => {
   //   },
   // ];
   const eventCardArray = events.map((event, index) => (
-    <EventCard key={index} title={event.title} image={event.image} />
+    <EventCard
+      key={index}
+      title={event.title}
+      image={event.image}
+      location={event.location}
+      date={event.date}
+      time={event.time}
+    />
   ));
 
   return (

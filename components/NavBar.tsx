@@ -7,7 +7,7 @@ const NavBar = () => {
     <header>
       <nav>
         <Link className="logo" href="/">
-          <Image src="/icons/logo.png" alt="logo" width={24} height={24} />
+          <Image src="/icons/logo.svg" alt="logo" width={100} height={100} />
         </Link>
         <ul className="">
           <Link href="/">Home</Link>
