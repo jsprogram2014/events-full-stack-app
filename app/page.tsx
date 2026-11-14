@@ -25,6 +25,7 @@ const Page = () => {
     <EventCard
       key={index}
       title={event.title}
+      slug={event.slug}
       image={event.image}
       location={event.location}
       date={event.date}

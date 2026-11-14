@@ -1,9 +1,13 @@
 "use client";
 import Image from "next/image";
+import posthog from "posthog-js";
 import React from "react";
 
 const ExploreButton = () => {
-  function handleButtonClick() {}
+  function handleButtonClick() {
+    posthog.capture("events_explored");
+    posthog.logger.info("event directory exploration requested");
+  }
 
   return (
     <button
